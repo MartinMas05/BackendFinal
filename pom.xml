@@ -16,7 +16,7 @@
     <name>backend</name>
     <description>Proyecto Integrador AP - Portfolio</description>
     <properties>
-        <java.version>18</java.version>
+        <java.version>17</java.version>
         <start-class>com.portfolio.backend.BackendApplication</start-class>
     </properties>
     <dependencies>
