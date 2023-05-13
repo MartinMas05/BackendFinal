@@ -29,7 +29,6 @@ import com.portfolio.backend.security.service.UsuarioService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 
 public class AuthController {
     @Autowired
