@@ -29,6 +29,7 @@ import com.portfolio.backend.security.service.UsuarioService;
 
 @RestController
 @RequestMapping("/auth")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 
 public class AuthController {
     @Autowired

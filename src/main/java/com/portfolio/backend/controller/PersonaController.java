@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Persona;
 import com.portfolio.backend.service.IPersonaService;
 
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/persona")
 public class PersonaController {
