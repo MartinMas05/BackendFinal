@@ -19,9 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.portfolio.backend.entity.Persona;
 import com.portfolio.backend.service.IPersonaService;
 
-@CrossOrigin(origins = "https://portfolioap-2022.web.app")
+@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#")
 @RestController
-@RequestMapping("persona")
+@RequestMapping("/persona")
 public class PersonaController {
 
     @Autowired
