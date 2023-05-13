@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Skills;
 import com.portfolio.backend.service.ISkillsService;
 
-@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 
 @RequestMapping("/skills")
 @RestController

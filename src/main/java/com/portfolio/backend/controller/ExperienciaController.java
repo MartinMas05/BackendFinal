@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Experiencia;
 import com.portfolio.backend.service.IExperienciaService;
 
-@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 
 @RequestMapping("/experiencia")
 @RestController

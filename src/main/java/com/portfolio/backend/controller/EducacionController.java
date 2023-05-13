@@ -12,7 +12,7 @@ import com.portfolio.backend.entity.Educacion;
 import com.portfolio.backend.service.IEducacionService;
 
 //@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#")
-@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
 @RequestMapping("/educacion")
 @RestController
 public class EducacionController {
