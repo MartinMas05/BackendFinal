@@ -15,11 +15,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.portfolio.backend.security.dto.JwtDto;
 import com.portfolio.backend.security.dto.LoginUsuario;
@@ -33,7 +29,8 @@ import com.portfolio.backend.security.service.UsuarioService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "https://martinmasetto-ba463.web.app/#", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT})
+
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
