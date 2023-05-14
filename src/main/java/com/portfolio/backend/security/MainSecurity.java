@@ -58,7 +58,7 @@ public class MainSecurity {
                 .cors().configurationSource(corsConfigurationSource()).and()
                 .authorizeHttpRequests()
                 .antMatchers("/**").permitAll()
-                .anyRequest().authenticated()
+                .anyRequest().permitAll()
                 .and()
                 .exceptionHandling().authenticationEntryPoint(jwtEntryPoint)
                 .and()
