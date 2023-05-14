@@ -27,6 +27,7 @@ import com.portfolio.backend.security.jwt.JwtProvider;
 import com.portfolio.backend.security.service.RolService;
 import com.portfolio.backend.security.service.UsuarioService;
 
+@CrossOrigin(origins = "https://martinmasetto-ba463.web.app")
 @RestController
 @RequestMapping("/auth")
 

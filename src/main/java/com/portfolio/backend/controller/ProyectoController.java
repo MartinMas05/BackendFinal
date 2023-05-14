@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Proyecto;
 import com.portfolio.backend.service.IProyectoService;
 
+@CrossOrigin(origins = "https://martinmasetto-ba463.web.app")
 @RestController
 @RequestMapping("/proyecto")
 public class ProyectoController {
