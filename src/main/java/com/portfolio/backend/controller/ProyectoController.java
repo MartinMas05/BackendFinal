@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Proyecto;
 import com.portfolio.backend.service.IProyectoService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/proyecto")
 public class ProyectoController {

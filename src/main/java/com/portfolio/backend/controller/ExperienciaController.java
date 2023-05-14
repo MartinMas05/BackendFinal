@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import com.portfolio.backend.entity.Experiencia;
 import com.portfolio.backend.service.IExperienciaService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/experiencia")
 @RestController
 public class ExperienciaController {
